@@ -11,6 +11,7 @@ $(function () {
     $('select').styler();
 
     $('.header__menu-btn').click(function() {
+
         $('.menu ul').slideToggle();
         $(".header__menu-btn div").toggleClass("icon-check");
         $(".header__menu-btn div").toggleClass("icon-bars");
